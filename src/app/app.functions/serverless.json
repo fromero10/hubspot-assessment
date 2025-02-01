@@ -2,7 +2,11 @@
   "appFunctions": {
     "myFunc": {
       "file": "example-function.js",
-      "secrets": []
+      "secrets": [],
+      "endpoint":{
+        "path":"",
+        "method": "POST"
+      }
     }
   }
 }
